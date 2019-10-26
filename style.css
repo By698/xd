@@ -1,0 +1,58 @@
+body {
+    background-color: #DDDDDD;
+    background: url("https://backgrounddownload.com/wp-content/uploads/2018/09/happy-birthday-background-image-hd-4.jpg")
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    display: block;
+    margin: auto;
+    font-family: 'Lalezar', cursive;
+    font-size: 10vmin;
+}
+
+h2 {
+    display: block;
+    margin: auto;
+    font-family: 'Lalezar', cursive;
+    font-size: 3vmin;
+    color: #333333;
+    text-align: center;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    width: 90vmin;
+}
+
+article {
+    margin: auto;
+    overflow: auto;
+    opacity: 0;
+    transition: opacity 5s; 
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+.show {
+    display: block;
+    opacity: 1;
+    transition: opacity 5s; 
+}
+
+.hide {
+    display: none;
+}
